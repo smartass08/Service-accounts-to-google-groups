@@ -1,4 +1,6 @@
-This method is for generating ServiceAccounts from regular gsuite and adding them to personal google group
+##This method is for generating ServiceAccounts from regular gsuite and adding them to personal google group
+
+
 
 
 
@@ -11,7 +13,7 @@ install all the required files and dependencies by following its readme.md file 
 Copy the accounts folder found in root directory of AutoRclone folder to somewhere safe. (This is important)
 
 
-## convert all Service Accounts .conf files to numerical order name scheme with .txt extension
+## Convert all Service Accounts .conf files to numerical order name scheme with .txt extension
 
 Make a copy of the accounts folder
 
