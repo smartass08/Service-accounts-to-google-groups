@@ -36,7 +36,7 @@ Type:-
 ```
 Open the Output.txt file which is generated in notepad or any text editor of your choice
 
-Remove the artefacts ("client email": ") using find and replace tool 
+Remove the the text ``"client email": "`` using find and replace tool 
 
 This will remove everything except ``xxxx@yyy.iam.gserviceaccount.com,``
 
