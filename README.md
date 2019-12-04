@@ -32,7 +32,7 @@ Open PowerShell and cd into the root of copied accounts folder
 
 Type:-
 ```
-(Select-String -Path *txt -Pattern 'client email').Line | Set-Content Output.txt
+(Select-String -Path *txt -Pattern 'client_email').Line | Set-Content Output.txt
 ```
 Open the Output.txt file which is generated in notepad or any text editor of your choice
 
