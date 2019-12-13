@@ -1,4 +1,4 @@
-This method is for generating ServiceAccounts from regular gsuite and adding them to personal google group
+This method is for generating ServiceAccounts from cloud.google.com and adding them to personal google groups.
 
 
 
