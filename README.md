@@ -12,7 +12,6 @@ install all the required files and dependencies by following its readme.md file 
 
 Copy the accounts folder found in root directory of AutoRclone folder to somewhere safe. (This is important)
 
-```
 
 ## Now we will procure the - ["client email": "xxxx@yyy.iam.gserviceaccount.com",] line from all the .txt files we created
 
