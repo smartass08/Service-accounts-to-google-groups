@@ -12,18 +12,6 @@ install all the required files and dependencies by following its readme.md file 
 
 Copy the accounts folder found in root directory of AutoRclone folder to somewhere safe. (This is important)
 
-
-## Convert all Service Accounts .conf files to numerical order name scheme with .txt extension
-
-Make a copy of the accounts folder
-
-cd into the root of the new copied accounts folder
-```
-cd Folder_address
-```
-type :-
-```
-ls -v | cat -n | while read n f; do mv -n "$f" "$n.txt"; done
 ```
 
 ## Now we will procure the - ["client email": "xxxx@yyy.iam.gserviceaccount.com",] line from all the .txt files we created
@@ -32,7 +20,7 @@ Open PowerShell and cd into the root of copied accounts folder
 
 Type:-
 ```
-(Select-String -Path *txt -Pattern 'client_email').Line | Set-Content Output.txt
+(Select-String -Path *json -Pattern 'client_email').Line | Set-Content Output.txt
 ```
 Open the Output.txt file which is generated in notepad or any text editor of your choice
 
@@ -41,6 +29,12 @@ Remove the the text ``"client_email": "`` using find and replace tool
 This will remove everything except ``xxxx@yyy.iam.gserviceaccount.com,``
 
 The final result will be unique email addresses with a comma at the end in each Line
+
+
+
+For linux users-
+
+``grep -oPh '"client_email": "\K[^"]+' *.json > emails.txt``
 
 SAVE IT
 
