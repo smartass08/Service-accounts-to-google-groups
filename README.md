@@ -35,7 +35,7 @@ For linux users-
 
 ``grep -oPh '"client_email": "\K[^"]+' *.json > emails.txt``
 
-SAVE IT
+
 
 ## Head over to Google groups and create new group
 
