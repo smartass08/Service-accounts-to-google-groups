@@ -1,7 +1,9 @@
 ## How to create service accounts and add them to your respected google groups.
 <br />
 
-### First setup AutoRclone from given link and enable drive api to get your credential.conf from it. (Skip this if you have your Service Accounts json files or have another method)
+### Generating service accounts
+
+Setup all the required dependencies from below repo and follow the steps accordingly.
 
   1) Visit [here](https://github.com/xyou365/AutoRclone) (All credits to its owner)
 
