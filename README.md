@@ -3,11 +3,11 @@
 
 ### First setup AutoRclone from given link and enable drive api to get your credential.conf from it. (Skip this if you have your Service Accounts json files or have another method)
 
-https://github.com/xyou365/AutoRclone
+  1) Visit [here](https://github.com/xyou365/AutoRclone) (All credits to its owner)
 
-install all the required files and dependencies by following its readme.md file and create N numbers of ServiceAccounts (here N refers to quantity like 100/ 200 /300 etc)
+  2) Install all the required files and dependencies by following its readme.md file and create any number of service accounts.
 
-Copy the accounts folder found in root directory of AutoRclone folder to somewhere safe. (This is important)
+  3) Copy the accounts folder found in root directory of repo to somewhere safe. (This is important, Yes please don't share them on internet)
 
 <br />
 
