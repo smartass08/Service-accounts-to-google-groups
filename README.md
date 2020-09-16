@@ -39,7 +39,7 @@ This will give you all of your emails into `emails.txt` file
 
 ### Adding to google your group  
 
-  1) Create a new google group [here](groups.google.com) or use your any existing one.
+  1) Create a new google group [here](https://groups.google.com) or use your any existing one.
   
   2) Under `member section`, Select `Add members` button (Don't forget to check `Directly add members`) and copy-paste 10 email accounts into the checkbox and submit . We are only adding 10 at a time because google's public api restricts us to add only 10 members in one time and 100 in a day, So plan it accordingly to your count of service accounts and add them in batches.
 
