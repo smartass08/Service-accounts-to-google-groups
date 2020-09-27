@@ -17,11 +17,9 @@ Setup all the required dependencies from below repo and follow the steps accordi
 
 #### Windows :-
 
-  1) Get all emails - `["client email": "xxxx@yyy.iam.gserviceaccount.com",]` line from the .txt files we created
+  1) Open PowerShell and cd into the root of copied accounts folder
 
-  2) Open PowerShell and cd into the root of copied accounts folder
-
-  3) Execute:- `$emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt`
+  2) Execute:- `$emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt`
 
 This will give you all of your emails into `emails.txt` file 
 
