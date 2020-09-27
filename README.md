@@ -21,11 +21,9 @@ Setup all the required dependencies from below repo and follow the steps accordi
 
   2) Open PowerShell and cd into the root of copied accounts folder
 
-  3) Execute:- `(Select-String -Path *json -Pattern 'client_email').Line | Set-Content Output.txt`
-  
-  4) Open the Output.txt file which is generated in notepad or any text editor of your choice & Remove the the text `"client_email": "` using find and replace tool. This will remove everything except `xxxx@yyy.iam.gserviceaccount.com,`
+  3) Execute:- `$emails = Get-ChildItem .\**.json |Get-Content -Raw |ConvertFrom-Json |Select -ExpandProperty client_email >>emails.txt`
 
-The final result will be unique email addresses with a comma at the end in each Line
+This will give you all of your emails into `emails.txt` file 
 
 
 #### For linux / MacOs users :-
